@@ -20,7 +20,6 @@ struct AnswerRow: View {
                 Spacer ()
                 Image (systemName: answer.isCorrect ? "checkmark.circle.fill" : "x.circle.fill")
                     .foregroundColor (answer.isCorrect ? .green : .red)
-                    .font(.title)
             }
         }
         .padding()
